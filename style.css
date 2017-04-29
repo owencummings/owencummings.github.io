@@ -3,6 +3,8 @@
   box-sizing: border-box;
   border: 2px solid Black;
   font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   margin: auto;
   /*padding: 50px 0px;*/
   text-align: center;
@@ -32,7 +34,20 @@ div {
 h1{
   font-family: Dosis;
   font-size: 60px;
-  font-style: Extra Bold;
+  font-style: normal;
+}
+
+
+.title {
+  padding: 10vh 0px 0px 15vw;
+  /*margin: 0px 0px 0px 0px;*/
+  text-align: left;
+}
+
+
+.info{
+  padding: 2vh 20vw 0vh 20vw;
+  line-height: 150%;
 }
 
 #cover{
@@ -45,8 +60,24 @@ h1{
   color: #FFFFFF;
 }
 
+
 #name{
-  padding: 40vh 0px 0px 0px;
+  padding: 30vh 0px 0px 0px;
   letter-spacing: 20px;
   text-shadow: 0px 1vh #000000;
+}
+
+#subname{
+  padding: 5vh 0px 0px 0px;
+  text-shadow: 0px 3px #000000;
+
+}
+
+#scrollButton{
+  height: 5vh;
+  width: 5vh;
+  position: fixed;
+  background-color: red;
+  z-index: 2;
+  margin: 80vh 0px 0px 85vw;
 }

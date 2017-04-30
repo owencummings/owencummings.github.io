@@ -4,8 +4,9 @@ function main(){
   //alert(string(screen.height) + 'px');
   //$('div').css('height', '500px');//string(screen.height) + 'px');
   $('#scrollButton').click(function(){
-    alert('Hello, world!');
+    $("html, body").animate({ scrollTop: ("700" + "px") });
   })
 }
+
 
 $(document).ready(main);

@@ -4,9 +4,16 @@ function main(){
   //alert(string(screen.height) + 'px');
   //$('div').css('height', '500px');//string(screen.height) + 'px');
   $('#scrollButton').click(function(){
-    $("html, body").animate({ scrollTop: ("700" + "px") });
+    //alert((window.innerHeight + "px"));
+    $("html, body").animate({ scrollTop: (window.innerHeight + currentHeight) + "px"});
+    currentHeight = currentHeight + window.innerHeight;
   })
 }
 
+var currentHeight = 0;
 
+$(document).ready(function(){
+    $(this).scrollTop(0);
+    currentHeight = 0;
+});
 $(document).ready(main);

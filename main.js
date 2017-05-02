@@ -3,9 +3,12 @@ function main(){
   //alert('Hello, world!');
   //alert(string(screen.height) + 'px');
   //$('div').css('height', '500px');//string(screen.height) + 'px');
-  $('#scrollButton').click(function(){
+
+
+
+  $('#scrollBar').click(function(){
     //alert((window.innerHeight + "px"));
-    $("html, body").animate({ scrollTop: (window.innerHeight + currentHeight) + "px"});
+    $("html, body").animate({ scrollTop: (2*(window.innerHeight + currentHeight)) + "px"}, 1500);
     currentHeight = currentHeight + window.innerHeight;
   })
 }

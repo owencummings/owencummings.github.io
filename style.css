@@ -124,6 +124,12 @@ li{
 
 }
 
+#contactBar{
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 42vh 0px 0px 0px;
+}
+
 #mission{
   background-color: #c3e7f7;
 }
@@ -132,7 +138,8 @@ li{
   background-color: #ddc3f7;
 }
 
-#finalLI{
+#underList{
+
 }
 
 
@@ -142,6 +149,12 @@ li{
 
 #education{
   background-color: #fccbc7;
+}
+
+#uchi{
+  margin: auto;
+  width: 10vw;
+
 }
 
 #interests{
@@ -164,6 +177,25 @@ li{
   margin: 0vh 0px 0px 98vw;
   border: none;
 }
+
+
+.scrollBut{
+  width: 100%;
+  height: 10vh;
+  color: #fff;
+  border: solid 2px black;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  top: 15%;
+  padding: auto;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 100%;
+}
+
+
 
 #scrollBarMirror{
   height: 100vh;

@@ -61,7 +61,12 @@ li{
 
 }
 
-
+a{
+  font-style: inherit;
+  text-decoration: none;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+}
 
 
 .title {
@@ -138,14 +143,73 @@ li{
   background-color: #ddc3f7;
 }
 
-#underList{
-
-}
-
-
 #projects{
   background-color: #f7c3e2;
 }
+
+#projectList{
+  width: 70vw;
+  height: 70vh;
+
+}
+
+.projectListBut{
+  width: 20%;
+  height: 15%;
+  float: left;
+  cursor: pointer;
+}
+
+#listBut1{
+  background-color: #fcb5df;
+}
+
+#listBut2{
+  background-color: #ffa5da;
+}
+
+#listBut3{
+  background-color: #ff96d4;
+}
+
+#listBut4{
+  background-color: #ff82cb;
+}
+
+#listBut5{
+  background-color: #ff72c4;
+}
+
+.projectListInfo{
+  color: #fff;
+  top: 15%;
+  position: absolute;
+  padding: 3vh 3vw;
+  text-align: left;
+  width: 100%;
+  height: 85%;
+}
+
+#listInfo1{
+  background-color: #fcb5df;
+}
+
+#listInfo2{
+  background-color: #ffa5da;
+}
+
+#listInfo3{
+  background-color: #ff96d4;
+}
+
+#listInfo4{
+  background-color: #ff82cb;
+}
+
+#listInfo5{
+  background-color: #ff72c4;
+}
+
 
 #education{
   background-color: #fccbc7;
@@ -162,6 +226,28 @@ li{
 
 }
 
+#audio1{
+  height: 10vh;
+  width: 10vh;
+  background-color: #fff;
+  float: left;
+  margin: auto;
+  left: 30vw;
+  top: 7vh;
+  cursor: pointer;
+}
+
+#audio2{
+  height: 10vh;
+  width: 10vh;
+  background-color: #fff;
+  float: left;
+  margin: auto;
+  left: 60vw;
+  top: 7vh;
+  cursor: pointer;
+}
+
 #demo{
   background-color: #f2eeb0;
 
@@ -170,11 +256,11 @@ li{
 
 #scrollBar{
   height: 100vh;
-  width: 2vw;
+  width: 3vw;
   position: fixed;
   background-color: #7e7e7e;
   z-index: 2;
-  margin: 0vh 0px 0px 98vw;
+  margin: 0vh 0px 0px 97vw;
   border: none;
 }
 
@@ -188,7 +274,6 @@ li{
   text-align: center;
   vertical-align: middle;
   top: 15%;
-  padding: auto;
   position: relative;
   font-size: 14px;
   cursor: pointer;
@@ -199,7 +284,7 @@ li{
 
 #scrollBarMirror{
   height: 100vh;
-  width: 2vw;
+  width: 3vw;
   position: fixed;
   background-color: #7e7e7e;
   z-index: 2;

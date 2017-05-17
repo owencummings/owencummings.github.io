@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="icon" href="http://i.imgur.com/XypDzrr.png">
   <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Roboto:light,regular,bold,black|Roboto+Condensed:regular,bold">
   <link href = "style.css" rel="stylesheet" type="text/css">
   <title>Owen's domain, baby!</title>
 </head>
 <div id='cover'>
-  <h1 id ='name'>OWEN CUMMINGS.</h1>
-  <p id='subname'>Let's jam.</p>
+  <h1 id ='name'></h1>
+  <p id='subname'></p>
   <p id='contactBar'> owenpatrickcummings@gmail.com | 609-658-2283 | <a href='https://github.com/owencummings' target='_blank'>https://github.com/owencummings</a> </p>
 </div>
 <div id='scrollBar'>
-  <div class='scrollBut' id='but1'>I</div>
-  <div class='scrollBut' id='but2'>II</div>
-  <div class='scrollBut' id='but3'>III</div>
-  <div class='scrollBut' id='but4'>IV</div>
-  <div class='scrollBut' id='but5'>V</div>
-  <div class='scrollBut' id='but6'>VI</div>
-  <div class='scrollBut' id='but7'>VII</div>
+  <div class='scrollBut' id='but1'><div class='scrollSquare' style='background-color: white; '></div></div>
+  <div class='scrollBut' id='but2'><div class='scrollSquare'></div></div>
+  <div class='scrollBut' id='but3'><div class='scrollSquare'></div></div>
+  <div class='scrollBut' id='but4'><div class='scrollSquare'></div></div>
+  <div class='scrollBut' id='but5'><div class='scrollSquare'></div></div>
+  <div class='scrollBut' id='but6'><div class='scrollSquare'></div></div>
+  <div class='scrollBut' id='but7'><div class='scrollSquare'></div></div>
 </div>
 <div id='scrollBarMirror'>
 </div>
 <div>
-  <img src = 'http://i.imgur.com/UnuQrZ7.png' class='dither'>
+  <div class='dither' id='break1'>
+  </div>
 </div>
 <div id="mission">
   <h1 class='title'>MISSION</h1>
@@ -31,13 +33,14 @@
   To break out into the software development field.
   I'm aiming to be a competitive full-stack developer, willing to learn any framework to get the best results.
   My background is uniquely focused on theoretical maths and fun-optimized design, which I tend to leverage on any project that I get involved with.
+  To put it simply:
   </p>
-  <br>
-  <br>
-  I plan to stick a graphic here, it's coming!
+
+  <img src="http://i.imgur.com/cJHH0c8.png" alt="Owen plus computer equals money." width="80%">
 </div>
 <div>
-  <img src = 'http://i.imgur.com/QXPTuI1.png' class='dither'>
+  <div class='dither' id='break2'>
+  </div>
 </div>
 <div id='skills'>
   <h1 class='title'>SKILLS</h1>
@@ -64,7 +67,8 @@
   </p>
 </div>
 <div>
-  <img src = 'http://i.imgur.com/irkqn6e.png' class='dither'>
+  <div class='dither' id='break3'>
+  </div>
 </div>
 <div id='projects'>
   <h1 class='title'>PROJECTS</h1>
@@ -75,33 +79,50 @@
     <div class='projectListBut' id='listBut4'></div>
     <div class='projectListBut' id='listBut5'></div>
     <div class='projectListInfo' id='listInfo1'>
-    This Website: Surprise. I programmed and designed this bad boy from scratch.
+    This Website:
+    <br>
+    <br>
+    Surprise. I programmed and designed this bad boy from scratch.
     It uses HTML, CSS, Javascript, and jQuery. I think button clicks are very satisfying, so I wanted to design a page without scrolling as a study.
-    The verdict? You get good viewpoint control, but it isn't easy to account for different resolutions and scrolling is great for reading.
+    The verdict? You get good viewpoint control, but it isn't easy to account for different resolutions and scrolling is a great tool for reading.
     </div>
     <div class='projectListInfo' id='listInfo2'>
-      Game Demo 1: Made entirely in Python. Yeah, big mistake. A modest video game demo where I learned the coding magic behind cutscenes,
-      transitions, command responses, etc. Basically, if theres any more going on than a sprite existing in the window, I had to figure out. Terrible way
-      to make a game, but great way to teach the mechanics and appreciate how far tech has come.
+      Game Demo 1:
+      <br>
+      <br>
+      Made entirely in Python. Yeah, big mistake. A modest video game demo where I learned the coding magic behind cutscenes,
+      transitions, command responses, etc. Basically, if there's any more going on than a sprite existing in the window, I had to figure out. Terrible way
+      to make a game, but great way to learn the mechanics and appreciate how far tech has come.
     </div>
     <div class='projectListInfo' id='listInfo3'>
-      Game Demo 2: This is my baby. Art, code, most sound tracks and effects, design, etc. is all mine. It was a really serious undertaking and I'm
+      Game Demo 2:
+      <br>
+      <br>
+      This is my baby. Art, code, most sound tracks and effects, design, etc. is all mine. It was a really serious undertaking and I'm
       happy with the direction its going in. It is created in the engine GameMaker: Studio, which uses its own custom language and file system.
       I'm not really comfortable outing the engine files, but as you can imagine there are an astronomical amount of moving parts to manage objects,
       transitions, and long-term data.
     </div>
     <div class='projectListInfo' id='listInfo4'>
-      School Projects: (still have to select which projects I'm actually putting up and have to retrieve them from my VM. I've got some cool
-      algorithmish stuff, some web crawler stuff, even an almost-functional IM service with both client and server communication).
+      School Projects:
+      <br>
+      <br>
+      I still have to select which projects I'm actually putting up and have to retrieve them from my VM. Amongst other things, I've got some cool
+      algorithms, some web crawler stuff, even an almost-functional IM service with both client and server communication.
     </div>
     <div class='projectListInfo' id='listInfo5'>
-      WIP: I'm thinking of starting some kind of API project after I'm finished with this. Maybe make a small page for that too with
-      react.js, since that seems to be really popular.
+      The Next One:
+      <br>
+      <br>
+      Once I knock this off, I'll be starting a new project.
+      I'm deciding between an API-based project, with plans of designing a page with React.js, and an mobile app which uses advanced
+      systems and algorithms to smooth over common behavioural problems in common planning and communication.
     </div>
   </div>
 </div>
 <div>
-  <img src = 'http://i.imgur.com/1G1EoCB.png' class='dither'>
+  <div class='dither' id='break4'>
+  </div>
 </div>
 <div id='education'>
   <h1 class='title'>EDUCATION</h1>
@@ -126,12 +147,13 @@
   <li class = "col2">Sociology.</li>
   </ul>
   <br>
-  <p class='info'>
+  <p class='info' id='underList'>
   It means I know my stuff. And a little bit extra.
   </p>
 </div>
 <div>
-  <img src = 'http://i.imgur.com/THFLRNN.png' class='dither'>
+  <div class='dither' id='break5'>
+  </div>
 </div>
 <div id='interests'>
   <h1 class='title'>INTERESTS</h1>
@@ -147,11 +169,14 @@
   Here are some tracks I made for my videogame: one cover, one original. They're created using a program that simulates sound chips
   from the classic Nintendo era. As in life, I'm willing to learn anything to hit a high benchmark.
  </p>
- <div id='audio1'></div>
- <div id='audio2'></div>
+ <div id='audioWrapper'>
+   <div id='audio1'></div>
+   <div id='audio2'></div>
+ </div>
 </div>
 <div>
-  <img src = 'http://i.imgur.com/STEKwcx.png' class='dither'>
+  <div class='dither' id='break6'>
+  </div>
 </div>
 <div id='demo'>
   <h1 class='title'>DEMO</h1>
@@ -159,6 +184,7 @@
   I think it would be fun to put a little Javascript game here, but what do I know.
   </p>
   <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
   <script src='main.js'></script>
 </div>
 </html>

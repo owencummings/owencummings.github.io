@@ -335,10 +335,10 @@ a{
   border-bottom-right-radius: 25px;
 }
 
-.listLink a{
-  color: #fff;
-  font-size: 30px;
-  font-weight: bold;
+.listLink {
+  color: #fff !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
 }
 
 #listInfo1{

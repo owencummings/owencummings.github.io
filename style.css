@@ -335,7 +335,7 @@ a{
   border-bottom-right-radius: 25px;
 }
 
-.listLink{
+.listLink a{
   color: #fff;
   font-size: 30px;
   font-weight: bold;

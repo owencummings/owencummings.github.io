@@ -184,15 +184,21 @@ a{
 }
 
 @keyframes subNameAnim{
-  10% {content: 'L'}
-  20% {content: 'Le'}
-  30% {content: 'Let'}
-  40% {content: 'Let\''}
-  50% {content: 'Let\'s'}
-  60% {content: 'Let\'s J'}
-  70% {content: 'Let\'s Ja'}
-  80% {content: 'Let\'s Jam'}
-  100% {content: 'Let\'s Jam.'}
+  5% {content: 'S'}
+  10% {content: 'So'}
+  15% {content: 'Sol'}
+  20% {content: 'Solv'}
+  25% {content: 'Solve'}
+  30% {content: 'Solver'}
+  55% {content: 'Solver \&'}
+  65% {content: 'Solver \& C'}
+  70% {content: 'Solver \& Cr'}
+  75% {content: 'Solver \& Cre'}
+  80% {content: 'Solver \& Crea'}
+  85% {content: 'Solver \& Creat'}
+  90% {content: 'Solver \& Creato'}
+  95% {content: 'Solver \& Creator'}
+  100% {content: 'Solver \& Creator.'}
 }
 
 

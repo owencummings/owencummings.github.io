@@ -309,23 +309,23 @@ a{
 }
 
 #listBut1{
-  background-color: #b0bec4;
+  background-color: #B4BECC;
 }
 
 #listBut2{
-  background-color: #b3cbd6;
+  background-color: #A2B8D7;
 }
 
 #listBut3{
-  background-color: #91afbc;
+  background-color: #83A5D6;
 }
 
 #listBut4{
-  background-color: #90bdd1;
+  background-color: #6E9ADB;
 }
 
 #listBut5{
-  background-color: #82b5cc;
+  background-color: #5D94E5;
 }
 
 .projectListInfo{
@@ -347,28 +347,39 @@ a{
   font-weight: bold !important;
 }
 
+.projectLinkBut{
+  width: 4vw;
+  height: 4vw;
+  top: 48vh;
+  left: 64vw;
+  position: absolute;
+  cursor: pointer;
+  border: solid 3.5px white;
+  border-radius: .9vw;
+}
+
 #listInfo1{
-  background-color: #b0bec4;
+  background-color: #B4BECC;
   z-index: 5;
 }
 
 #listInfo2{
-  background-color: #b3cbd6;
+  background-color: #A2B8D7;
   z-index: 4;
 }
 
 #listInfo3{
-  background-color: #91afbc;
+  background-color: #83A5D6;
   z-index: 3;
 }
 
 #listInfo4{
-  background-color: #90bdd1;
+  background-color: #6E9ADB;
   z-index: 2;
 }
 
 #listInfo5{
-  background-color: #82b5cc;
+  background-color: #5D94E5;
   z-index: 1;
 }
 

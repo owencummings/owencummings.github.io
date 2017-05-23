@@ -113,6 +113,18 @@ function main(){
   })
 
 
+  $(".projectLinkBut").mouseenter(function(){
+    $(this).css('background-color', 'white');
+  })
+
+
+  $(".projectLinkBut").mouseleave(function(){
+    if (audio1.paused){
+      $(this).css('background-color', 'transparent');
+    }
+  })
+
+
   $("#audio1").mouseenter(function(){
     $(this).css('background-color', 'white');
   })
